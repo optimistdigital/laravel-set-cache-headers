@@ -1,0 +1,35 @@
+{
+    "name": "optimistdigital/laravel-set-cache-headers",
+    "description": "This Laravel package is a bug fix for not caching successful responses, especially the ones with the HTTP status code 204 (No Content).",
+    "keywords": [
+      "laravel",
+      "cache",
+      "optimistdigital"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Tatter",
+            "email": "allan@optimistdigital.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.1",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "OptimistDigital\\SetCacheHeaders\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OptimistDigital\\SetCacheHeaders\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+      "sort-packages": true
+    },
+    "prefer-stable": true
+}
