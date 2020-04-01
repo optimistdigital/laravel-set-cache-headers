@@ -1,5 +1,7 @@
 # Laravel SetCacheHeaders middleware
 
+![tests](https://github.com/optimistdigital/laravel-set-cache-headers/workflows/tests/badge.svg)
+
 This Laravel package is a bug fix for not caching successful responses, especially the ones with the HTTP status code 204 (No Content).
 
 See issue: https://github.com/laravel/framework/pull/32178
