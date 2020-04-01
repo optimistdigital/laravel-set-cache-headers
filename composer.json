@@ -13,7 +13,9 @@
             "email": "allan@optimistdigital.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3"
+    },
     "require-dev": {
         "orchestra/testbench": "^4.1",
         "phpunit/phpunit": "^9.0"
